@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c689f7605751fe7419e072e31fe0315e
+timeCreated: 1433015541
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Example/Materials/Red.mat
+  uploadId: 639351

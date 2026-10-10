@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4cfe3047017134e9dab47510959911, type: 3}
+  m_Name: Test_MapBigger
+  m_EditorClassIdentifier: 
+  active: 1
+  priority: 0
+  maxParallelSceneLoading: 1
+  loadingRange: {x: 3, y: 0, z: 3}
+  useLoadingRangeMin: 0
+  loadingRangeMin: {x: 2, y: 2, z: 2}
+  useUnloadRangeConnect: 0
+  unloadRangeConnect: {fileID: 0}
+  unloadRangeConnectParent: {fileID: 11400000, guid: ebde1bc2f2ecd3c439854442c2369d11,
+    type: 2}
+  deloadingRange: {x: 3, y: 0, z: 3}
+  prefixName: Ground1km
+  prefixScene: Test_MapBigger
+  path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/
+  names:
+  - Test_MapBigger_x3_z3.unity
+  - Test_MapBigger_x0_z0.unity
+  - Test_MapBigger_x3_z6.unity
+  - Test_MapBigger_x7_z1.unity
+  - Test_MapBigger_x2_z5.unity
+  - Test_MapBigger_x5_z1.unity
+  - Test_MapBigger_x0_z4.unity
+  - Test_MapBigger_x6_z6.unity
+  - Test_MapBigger_x6_z0.unity
+  - Test_MapBigger_x2_z0.unity
+  - Test_MapBigger_x1_z4.unity
+  - Test_MapBigger_x6_z7.unity
+  - Test_MapBigger_x6_z3.unity
+  - Test_MapBigger_x4_z4.unity
+  - Test_MapBigger_x6_z1.unity
+  - Test_MapBigger_x4_z7.unity
+  - Test_MapBigger_x0_z6.unity
+  - Test_MapBigger_x6_z2.unity
+  - Test_MapBigger_x5_z4.unity
+  - Test_MapBigger_x1_z3.unity
+  - Test_MapBigger_x5_z0.unity
+  - Test_MapBigger_x3_z4.unity
+  - Test_MapBigger_x7_z2.unity
+  - Test_MapBigger_x0_z2.unity
+  - Test_MapBigger_x1_z5.unity
+  - Test_MapBigger_x4_z1.unity
+  - Test_MapBigger_x0_z1.unity
+  - Test_MapBigger_x0_z5.unity
+  - Test_MapBigger_x7_z3.unity
+  - Test_MapBigger_x1_z6.unity
+  - Test_MapBigger_x4_z2.unity
+  - Test_MapBigger_x5_z5.unity
+  - Test_MapBigger_x3_z5.unity
+  - Test_MapBigger_x2_z2.unity
+  - Test_MapBigger_x3_z2.unity
+  - Test_MapBigger_x5_z2.unity
+  - Test_MapBigger_x1_z1.unity
+  - Test_MapBigger_x6_z4.unity
+  - Test_MapBigger_x7_z5.unity
+  - Test_MapBigger_x2_z1.unity
+  - Test_MapBigger_x3_z7.unity
+  - Test_MapBigger_x5_z7.unity
+  - Test_MapBigger_x4_z3.unity
+  - Test_MapBigger_x1_z7.unity
+  - Test_MapBigger_x2_z7.unity
+  - Test_MapBigger_x6_z5.unity
+  - Test_MapBigger_x0_z7.unity
+  - Test_MapBigger_x1_z2.unity
+  - Test_MapBigger_x5_z3.unity
+  - Test_MapBigger_x2_z6.unity
+  - Test_MapBigger_x7_z6.unity
+  - Test_MapBigger_x4_z6.unity
+  - Test_MapBigger_x7_z0.unity
+  - Test_MapBigger_x4_z5.unity
+  - Test_MapBigger_x1_z0.unity
+  - Test_MapBigger_x3_z1.unity
+  - Test_MapBigger_x4_z0.unity
+  - Test_MapBigger_x3_z0.unity
+  - Test_MapBigger_x7_z4.unity
+  - Test_MapBigger_x2_z3.unity
+  - Test_MapBigger_x5_z6.unity
+  - Test_MapBigger_x7_z7.unity
+  - Test_MapBigger_x0_z3.unity
+  - Test_MapBigger_x2_z4.unity
+  xSplitIs: 1
+  ySplitIs: 0
+  zSplitIs: 1
+  xSize: 125
+  ySize: 0
+  zSize: 125
+  xLimitsx: 0
+  xLimitsy: 7
+  yLimitsx: 0
+  yLimitsy: 0
+  zLimitsx: 0
+  zLimitsy: 7
+  xLimitsScenex: 0
+  xLimitsSceney: 7
+  yLimitsScenex: 0
+  yLimitsSceney: 0
+  zLimitsScenex: 0
+  zLimitsSceney: 7
+  collapsed: 1
+  layerNumber: 0
+  color: {r: 1, g: 0, b: 0, a: 1}
+  showDebug: 0
+  xLoadingLimity: 7
+  xLoadingLimitx: 0
+  xLoadingRange: 8
+  yLoadingLimity: 0
+  yLoadingLimitx: 0
+  yLoadingRange: 1
+  zLoadingLimity: 7
+  zLoadingLimitx: 0
+  zLoadingRange: 8
+  xPos: -2147483648
+  yPos: -2147483648
+  zPos: -2147483648
+  currentlySceneLoading: 0
+  loadedScenes: []

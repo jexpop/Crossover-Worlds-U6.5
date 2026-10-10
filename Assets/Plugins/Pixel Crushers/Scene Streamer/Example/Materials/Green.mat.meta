@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e48af9bb15a1eb449ae3f93da353946a
+timeCreated: 1433015010
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Example/Materials/Green.mat
+  uploadId: 639351

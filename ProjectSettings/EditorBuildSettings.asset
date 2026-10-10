@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Test Scene.unity
+    guid: b19971d687996174aa6ebb45414b97ea
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z3.unity
+    guid: 162e7981157e3e34e8585301babfa3f0
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z0.unity
+    guid: d3766dd5f7973eb44a72cc12f1748de8
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z6.unity
+    guid: 70ba658a12cc15148ae875b1b3724101
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z1.unity
+    guid: 3a4a74759bc989d4c8e5749f390ce89f
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z5.unity
+    guid: 932b6d8ebcf099940be09a5c6dc588f8
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z1.unity
+    guid: d35e8e4bb1eed82468cfdfe4a0928dc7
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z4.unity
+    guid: 4d5268266db5fca43bdc64b2e8ee6cfe
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z6.unity
+    guid: 40c43c9e73aafe94e99e2cbe6891cd30
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z0.unity
+    guid: d2cae0e3e2d835d4ebc81dea9a21564e
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z0.unity
+    guid: 4f48c0701629cc8418ab789e471750f0
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z4.unity
+    guid: bb46b7bf462ff444aac7296d9f0a82bb
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z7.unity
+    guid: eebed24d9f10a154d82a1de419f56b8e
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z3.unity
+    guid: 01a6f11b53a60c8458e5df737bb7811c
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z4.unity
+    guid: 1fe1fee400f67f7449bd0803b0f55776
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z1.unity
+    guid: 05c2ffc494ff3b64490e42c1895d74d0
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z7.unity
+    guid: 65cf62b68a0e4af4d97782c3b74210bd
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z6.unity
+    guid: 3d4eef7ced1858e4691f24b235d151c1
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z2.unity
+    guid: 9f66ed5de10c5fd4c9deceac92ebeb3d
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z4.unity
+    guid: 0bc839de5e54dab4c84bf9f2816e596e
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z3.unity
+    guid: efe4c7d60856d034da8e90d046e6d3f4
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z0.unity
+    guid: 6af82879158280a48b6816f273238fc2
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z4.unity
+    guid: 59d10bf01db412149a1b2613bab1ba39
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z2.unity
+    guid: 1bdc139ffcfef8c42bbfb7119dde03ca
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z2.unity
+    guid: fcc715fb9f6dc014282a31c0b2f69c21
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z5.unity
+    guid: 3b8ec152404a0d84eac89f952cd1ae1f
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z1.unity
+    guid: de70247f810d2424fbc46bc3196f11ee
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z1.unity
+    guid: 5b2306ac6ebf9194c950d797f17bb811
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z5.unity
+    guid: d060010e9df91c6419ca48c9a7e38143
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z3.unity
+    guid: ee6b960116acaa743b94b425b6a605e4
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z6.unity
+    guid: 85771a0b3ad45b949afb52a5925d6f50
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z2.unity
+    guid: fbc904045a7aab9429b54d5374fa6f1c
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z5.unity
+    guid: 6d08e500e9683b548b2f17f9e7c37783
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z5.unity
+    guid: 0416e14023bad874caa390d78aa69059
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z2.unity
+    guid: 061ab61bd7c009f4b8158c6364b4a2a4
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z2.unity
+    guid: b5ebe8f13f9da614e9d9efab54f655b0
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z2.unity
+    guid: 105f0f4651cdcb24995f8ef1b7d5a5ee
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z1.unity
+    guid: 012fe131180145d4fa648d89f6a58e71
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z4.unity
+    guid: 4b8580afe89c5d946a971e12f45657e7
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z5.unity
+    guid: a0d3263477227ad419323caf68486dea
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z1.unity
+    guid: 1266de8a76d0c834fb409b9807fce37f
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z7.unity
+    guid: ff130778818b31b499a14f160a8c3f33
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z7.unity
+    guid: 37deaae6b356ff3489ff1f89d001f049
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z3.unity
+    guid: 535b9243fba3dbe458b0707b6a44d505
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z7.unity
+    guid: e110c291b2bceae45b8e45d35d3604e3
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z7.unity
+    guid: 9eb0911807066e643819d1d49885e363
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x6_z5.unity
+    guid: 492837a525cccdd4ea9f06d83ee70c3a
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z7.unity
+    guid: 9ec7fde5ca7eef14386c4a75e73e7b5e
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z2.unity
+    guid: d9d281d06bcde3242aaa2a88ebfae27d
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z3.unity
+    guid: 526eed537b563d6418d4621500abb3f9
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z6.unity
+    guid: 5d666dd818a94e44bba413588ecc2523
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z6.unity
+    guid: 485b701801b75f44a82a5c54f69ce86c
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z6.unity
+    guid: 21620ba3c73d00f489b6332eb563bc4b
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z0.unity
+    guid: 40169f6c65e64d34a8e53bc67eb19a57
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z5.unity
+    guid: e1d775469497b69448903bd197eb7335
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x1_z0.unity
+    guid: 4df5c73332321304e9b1106ad5e5ce0d
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z1.unity
+    guid: 0cab81597f6611b45881288bf48be504
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x4_z0.unity
+    guid: 819f5e2dc4917494394151a14faf3e9d
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x3_z0.unity
+    guid: 1e569ef93fc3f504490172e3aa97f2cd
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z4.unity
+    guid: 18faf7c5ef5b21a4a82150df73f0fdc3
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z3.unity
+    guid: 94b24408eefb01f46948aba668d5b2f3
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x5_z6.unity
+    guid: 72eb275d5bf27df4b818a9db746f5770
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x7_z7.unity
+    guid: 8efc88267ecad7b4593685001f423554
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x0_z3.unity
+    guid: 465ea0aee1103d44982aa216132b20ee
+  - enabled: 1
+    path: Assets/For Testing/Terrain/BiggerTesting/SplitScenesTest Scene/Test_MapBigger/Test_MapBigger_x2_z4.unity
+    guid: acb6f9b04e82f57498f092eca1ba67f2
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

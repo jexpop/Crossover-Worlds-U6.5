@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbee6a24366d230469e0c5eb6f5ecf9a, type: 3}
+  m_Name: Grass GPUI Material Variation Definition
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 07b590d2bfd8df849943cf7aec1fd6f2, type: 2}
+  replacementShader: {fileID: -6465566751694194690, guid: 62f4e0f70dced0941a835a98a10a33fe,
+    type: 3}
+  bufferName: GrassVariationBuffer
+  items:
+  - propertyName: _Pushed_Amount
+    variationType: 3
+    defaultValue: {x: 0, y: 1, z: 0, w: 0}
+  - propertyName: _Foot_Position
+    variationType: 0
+    defaultValue: {x: 0, y: 0, z: 0, w: 0}
+  shaderIncludeFile: {fileID: 10900000, guid: 4376653d1032f464784b0bb226668f69, type: 3}

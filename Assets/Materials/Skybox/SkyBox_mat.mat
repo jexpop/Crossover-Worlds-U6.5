@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9116566941266100768
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyBox_mat
+  m_Shader: {fileID: -6465566751694194690, guid: 3bcc68f935909024cbaa842095f380da,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cloud_Texture:
+        m_Texture: {fileID: 2800000, guid: d417297578eccae448983a2337f2eaef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clouds_Texture:
+        m_Texture: {fileID: 2800000, guid: 29f3f5ac15972974ba22d464fa3efb07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_11ebbbb536c24ff8a4299429d82a1c65_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d8afb0b587346d44c8221bc4d5f15fb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_14dda22f7560449182430aaceed08b58_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f3140b0131e1640978bf1ce1be8cbdd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6176d8070b8b479981b6b8c6fd0676dc_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f3140b0131e1640978bf1ce1be8cbdd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_63f2b9f2fa3b4269ac31f97a1165bfd0_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 09f9aa05aaeec1d419ddf8173640482f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a5cd9e4faa7f4e099d58eb0bf86cfc16_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f3140b0131e1640978bf1ce1be8cbdd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cc3d8a63366548ec8f13e64b80baff40_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f3140b0131e1640978bf1ce1be8cbdd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e430cb13494042dea17731ad8d127add_Texture_1:
+        m_Texture: {fileID: 2800000, guid: cbb65ec17f92eb44fb0dde6381b6a415, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudAnisotropy: 0
+    - _CloudBrightness: 82
+    - _CloudDensity: 8
+    - _CloudHeight: 1
+    - _CloudScale: 1
+    - _CloudSoftness: 0.2
+    - _CloudSpeed: 1
+    - _CloudThickness: 0.7
+    - _CloudTwirl: 0.1
+    - _Cloud_Edge: 0.5
+    - _Cloud_Height: 1
+    - _DayBrightness: 2
+    - _DayScatterStrength: 1
+    - _DensityPower: 0
+    - _EveningBrightness: 0.5
+    - _EveningScatterStrength: 0.5
+    - _EveningThreshold: 3
+    - _Fog_Height: 50
+    - _Moon_Brightness: 2
+    - _Moon_Mask_Size: 0.09
+    - _Moon_Size: 0.03
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Saturation: 1
+    - _Star_Brightness: 200
+    - _Star_Density: 0
+    - _Sun_Brightness: 5
+    - _Sun_Mask_Size: 0.153
+    - _Sun_Size: 0.06
+    - _Wind_Speed: 1
+    m_Colors:
+    - _CloudColour: {r: 0.35567823, g: 0.3660378, b: 0.3579303, a: 1}
+    - _DayColour: {r: 0.1858313, g: 0.3224012, b: 0.4528301, a: 1}
+    - _EveningColour: {r: 0.5849056, g: 0.33310595, b: 0.20637235, a: 1}
+    - _HorizonColor: {r: 0.25164106, g: 0.7103727, b: 0.7132074, a: 0}
+    - _Horizon_Color: {r: 0.25164106, g: 0.7103727, b: 0.7132074, a: 0}
+    - _Moon_Color: {r: 0.27058816, g: 0.29803917, b: 0.5568628, a: 1}
+    - _SkyColor: {r: 0.24705026, g: 0.21740815, b: 0.7433963, a: 0}
+    - _Sky_Color: {r: 0.24705026, g: 0.21740815, b: 0.7433963, a: 0}
+    - _Wavelengths: {r: 680, g: 440, b: 550, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

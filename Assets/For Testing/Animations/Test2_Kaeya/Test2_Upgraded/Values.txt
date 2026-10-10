@@ -1,0 +1,7 @@
+-- Before extract animation (Control D) , remove from fbx material, optional change animation name, rig humanoid
+
+Walking - overdrive 15
+Medium Stop - trim (start) 45
+ Light Stop - overdrive 25 - character arm space 55 - trim (start) 50
+ Jumping  - trim (start) 37
+  Light Landing - trim (start) 22

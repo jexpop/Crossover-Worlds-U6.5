@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e39082cd512c78a449614596d3f16902
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Scripts/Extensions/SceneStreamerSaver.cs
+  uploadId: 639351

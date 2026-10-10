@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c033251c10ee72b42b1c9eb1805c6e08
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Scripts/SceneEdge.cs
+  uploadId: 639351

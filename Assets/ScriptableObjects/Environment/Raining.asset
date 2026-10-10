@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c4beff73d89d748b9de45423cae15c, type: 3}
+  m_Name: Raining
+  m_EditorClassIdentifier: 
+  <NormalCloudThickness>k__BackingField: 0.7
+  <RainingCloudThickness>k__BackingField: 0.5
+  <NormalCloudBrightness>k__BackingField: 82
+  <RainingCloudBrightness>k__BackingField: 82
+  <NormalDayBrightness>k__BackingField: 2
+  <RainingDayBrightness>k__BackingField: 2
+  <NormalDayColor>k__BackingField: {r: 0.1858313, g: 0.3224012, b: 0.4528301, a: 1}
+  <RainingDayColor>k__BackingField: {r: 0.18431373, g: 0.32156864, b: 0.4509804, a: 1}

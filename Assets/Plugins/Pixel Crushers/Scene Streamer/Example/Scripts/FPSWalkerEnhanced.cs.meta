@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 3cb97fffbd562b24895140e0be1d12a2
+timeCreated: 1572352289
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Example/Scripts/FPSWalkerEnhanced.cs
+  uploadId: 639351

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b53136e5280ec64dbecbea97981cbcc
+timeCreated: 1435421198
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Prefabs/Scene Streamer.prefab
+  uploadId: 639351

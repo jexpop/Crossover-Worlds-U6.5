@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a0a83af0a0e9cd4894da748c9d0b6fa
+timeCreated: 1433015950
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Example/Materials/Yellow.mat
+  uploadId: 639351

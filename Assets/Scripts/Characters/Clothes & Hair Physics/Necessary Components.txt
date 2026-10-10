@@ -1,0 +1,4 @@
+Main GameObject
+-> Spring Manager --> Obtain Bones
+-> Bone Renderer
+

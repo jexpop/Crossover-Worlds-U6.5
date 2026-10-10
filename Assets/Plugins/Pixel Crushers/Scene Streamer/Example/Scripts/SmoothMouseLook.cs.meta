@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1962197e4c390184e966b9a5243635bb
+timeCreated: 1572352517
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 38168
+  packageName: Scene Streamer
+  packageVersion: 1.25
+  assetPath: Assets/Plugins/Pixel Crushers/Scene Streamer/Example/Scripts/SmoothMouseLook.cs
+  uploadId: 639351
