@@ -21,8 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Stone_Medium_02
-  m_Shader: {fileID: -6465566751694194690, guid: de867080e2bedf74581f6d99dc8c76cb,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: de867080e2bedf74581f6d99dc8c76cb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -173,6 +172,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _ENABLE_COVERAGE: 0
     - _ENUM: 0
     - _EnvironmentReflections: 1
@@ -203,6 +203,7 @@ Material:
     - _SpecSource: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZTest: 4

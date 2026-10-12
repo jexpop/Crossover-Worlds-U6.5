@@ -1,4 +1,4 @@
-using Cinemachine;
+
 using UnityEngine;
 
 namespace CrossoverWorlds.Characters.Movement.Player.Cameras
@@ -12,15 +12,15 @@ namespace CrossoverWorlds.Characters.Movement.Player.Cameras
         [SerializeField] [Range(0f, 20f)] private float smoothing = 4f;
         [SerializeField] [Range(0f, 20f)] private float zoomSensitivity = 1f;
 
-        private CinemachineFramingTransposer framingTransposer;
-        private CinemachineInputProvider inputProvider;
+        private Unity.Cinemachine.CinemachineFramingTransposer framingTransposer;
+        private Unity.Cinemachine.CinemachineInputProvider inputProvider;
 
         private float currentTargetDistance;
 
         private void Awake()
         {
-            framingTransposer = GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>();
-            inputProvider = GetComponent<CinemachineInputProvider>();
+            framingTransposer = GetComponent<Unity.Cinemachine.CinemachineVirtualCamera>().GetCinemachineComponent<Unity.Cinemachine.CinemachineFramingTransposer>();
+            inputProvider = GetComponent<Unity.Cinemachine.CinemachineInputProvider>();
 
             currentTargetDistance = defaultDistance;
         }

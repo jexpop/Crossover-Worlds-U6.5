@@ -33,6 +33,7 @@ Material:
   - N_F_RDC_ON
   - N_F_TRANSAFFSHA_ON
   - N_F_TRANS_ON
+  - _UVSET_UV0
   m_InvalidKeywords:
   - N_F_TRANSAFFSHA
   - _ALPHABASECUTOUT_OFF
@@ -255,6 +256,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RefrMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SecondaryCutout:
         m_Texture: {fileID: 2800000, guid: 0c454ba922aedb9419fd6ed6875cb63c, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -338,15 +343,18 @@ Material:
     - _1st_ShadeColor_Step: 0.5
     - _2nd_ShadeColor_Feather: 0.0001
     - _2nd_ShadeColor_Step: 0
+    - _AAS: 0.0001
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ARSampler_AlphaOn: 0
     - _AR_OffsetU: 0
     - _AR_OffsetV: 0.3
     - _ATDistance: 1
+    - _Aberration: 8.5
     - _AddPrecomputedVelocity: 0
     - _Add_Antipodean_RimLight: 0
     - _AlbedoAffectEmissive: 0
+    - _AlpToCov: 0
     - _AlphaBaseCutout: 0
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
@@ -381,6 +389,7 @@ Material:
     - _CameraRolling_Stabilizer: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ClipAdju: 0
     - _ClippingMatteMode: 0
     - _ClippingMode: 0
     - _Clipping_Level: 0
@@ -410,6 +419,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
+    - _DistRef: 0.95
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
     - _DistortionBlurDstBlend: 0
@@ -444,6 +454,8 @@ Material:
     - _Farthest_Distance: 100
     - _FirstShadeOverridden: 0
     - _FirstShadeVisible: 1
+    - _FresnelEdge: 0
+    - _Frost: 0
     - _GIFlatShade: 0
     - _GIShadeThreshold: 0
     - _GI_Intensity: 0
@@ -508,6 +520,8 @@ Material:
     - _Is_UseTweakMatCapOnShadow: 0
     - _Is_ViewCoord_Scroll: 0
     - _Is_ViewShift: 0
+    - _LLI_Max: 1
+    - _LLI_Min: 0
     - _LigIgnoYNorDir: 0
     - _LightAffectOutlineColor: 0
     - _LightAffectRimLightColor: 0
@@ -526,8 +540,10 @@ Material:
     - _MaxFadDistance: 2
     - _Metallic: 0
     - _MinFadDistance: 0
+    - _MixMaiTexRefr: 0
     - _MixMainTexToOutline: 0
     - _Mode: 0
+    - _N_F_ANIS: 0
     - _N_F_CA: 0
     - _N_F_CLD: 0
     - _N_F_CO: 1
@@ -535,12 +551,14 @@ Material:
     - _N_F_DCS: 0
     - _N_F_DDMD: 0
     - _N_F_EAL: 1
+    - _N_F_EPRF: 0
     - _N_F_ESSAO: 0
     - _N_F_FR: 0
     - _N_F_GLO: 0
     - _N_F_GLOT: 0
     - _N_F_HDLS: 1
     - _N_F_HPSS: 0
+    - _N_F_LLI: 0
     - _N_F_MC: 0
     - _N_F_MSSOLTFO: 0
     - _N_F_NFD: 0
@@ -548,25 +566,38 @@ Material:
     - _N_F_NM: 0
     - _N_F_O: 1
     - _N_F_OFLMB: 0
+    - _N_F_PA: 0
     - _N_F_PT: 0
     - _N_F_R: 0
     - _N_F_RDC: 1
+    - _N_F_RF: 0
     - _N_F_RL: 0
+    - _N_F_RLIS: 0
     - _N_F_SCO: 0
     - _N_F_SCT: 0
+    - _N_F_SE: 0
     - _N_F_SL: 0
+    - _N_F_SLMM: 0
     - _N_F_SON: 0
     - _N_F_SS: 0
     - _N_F_ST: 0
     - _N_F_STIAL: 0
     - _N_F_STIS: 0
+    - _N_F_STSDFM: 0
     - _N_F_TP: 0
+    - _N_F_UUVONEANIS: 0
+    - _N_F_UUVONESDF: 0
     - _Nearest_Distance: 0.5
+    - _NoiTexAffStraWidt: 0
+    - _NoisTexInten: 1
+    - _NoiseSize: 100
     - _NoisyOutlineIntensity: 0
+    - _NorMapAsDis: 0
     - _NormalMapIntensity: 1
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _OUTLINE: 0
+    - _ObjePosiZCS: 0
     - _ObjectSpaceUVMapping: 0
     - _OcclusionStrength: 1
     - _Offset_X_Axis_BLD: -0.05
@@ -574,6 +605,9 @@ Material:
     - _Offset_Z: 0
     - _Opacity: 1
     - _Oper: 0
+    - _OutStenPass: 0
+    - _OutZTest: 4
+    - _OutZWrite: 1
     - _OutlineExtrudeMethod: 0
     - _OutlineOverridden: 0
     - _OutlineVisible: 1
@@ -582,6 +616,9 @@ Material:
     - _OutlineZPostionInCamera: 0
     - _Outline_Width: 0
     - _OverallShadowColorPower: 1
+    - _PADist: 0
+    - _PASize: 0.5
+    - _PASmooTrans: 1
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -591,8 +628,10 @@ Material:
     - _PTexturePower: 1
     - _Parallax: 0.02
     - _PointSpotlightIntensity: 0
+    - _PresAdju: 1
     - _QueueOffset: 0
     - _RELG: 0
+    - _RQSO: 0
     - _ReceiveShadows: 1
     - _ReceivesSSR: 1
     - _ReduSha: 0.5
@@ -600,6 +639,8 @@ Material:
     - _RefVal: 0
     - _ReflectionIntensity: 0
     - _ReflectionRoughtness: 0
+    - _RefracDepth: 0.05
+    - _RefracInten: 1
     - _RefractionModel: 0
     - _RimLigInt: 1
     - _RimLight: 0
@@ -644,6 +685,7 @@ Material:
     - _ShadowTIntensity: 1
     - _ShadowTLightThreshold: 50
     - _ShadowTShadowThreshold: 0
+    - _ShifAnis: 0
     - _ShowInAmbientLightShadowIntensity: 1
     - _ShowInAmbientLightShadowThreshold: 0.4
     - _ShowNormal: 0
@@ -675,17 +717,24 @@ Material:
     - _StencilWriteMaskGBuffer: 3
     - _StencilWriteMaskMV: 128
     - _StepOffset: 0
+    - _StraWidt: 10
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
     - _Surface: 0
     - _SurfaceType: 0
     - _TEXMCOLINT: 1
     - _TRANSMODE: 1
+    - _TessellationFar: 1
+    - _TessellationNear: 1
+    - _TessellationSmoothness: 0.5
+    - _TessellationTransition: 0.8
+    - _TexSca: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _TexturePatternStyle: 0
     - _Thickness: 1
     - _ThicknessMultiplier: 1
+    - _TrailSize: 1.5
     - _TransAffSha: 1
     - _TransmissionEnable: 1
     - _TransmissionMask: 1
@@ -714,6 +763,7 @@ Material:
     - _UVDetail: 0
     - _UVEmissive: 0
     - _UVSec: 0
+    - _UVSet: 0
     - _Unlit_Intensity: 0
     - _UseEmissiveIntensity: 0
     - _UseSecondaryCutout: 1
@@ -726,6 +776,7 @@ Material:
     - _VertexColorRedControlSmoothObjectNormal: 0
     - _WorkflowMode: 1
     - _ZOverDrawMode: 0
+    - _ZTest: 4
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestModeDistortion: 8
@@ -766,12 +817,19 @@ Material:
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ObjPosi: {r: 0, g: 0, b: 0, a: 0}
+    - _ObjectForward: {r: 0, g: 0, b: 0, a: 0}
+    - _ObjectRight: {r: 0, g: 0, b: 0, a: 0}
+    - _OutResi: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineMaskColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineOffset: {r: 0, g: 0, b: 0, a: 1}
     - _Outline_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _OverallShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _PTCol: {r: 0, g: 0, b: 0, a: 1}
+    - _PrevPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _RefracColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLigPosi: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightMaskColor: {r: 1, g: 0, b: 1, a: 1}
     - _SSAOColor: {r: 0, g: 0, b: 0, a: 0}

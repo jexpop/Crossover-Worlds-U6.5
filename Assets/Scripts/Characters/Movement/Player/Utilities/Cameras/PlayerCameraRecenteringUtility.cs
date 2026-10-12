@@ -1,5 +1,5 @@
 using System;
-using Cinemachine;
+
 using UnityEngine;
 
 namespace CrossoverWorlds.Characters.Movement.Player.Utilities.Cameras
@@ -7,15 +7,15 @@ namespace CrossoverWorlds.Characters.Movement.Player.Utilities.Cameras
     [Serializable]
     public class PlayerCameraRecenteringUtility
     {
-        [field: SerializeField] public CinemachineVirtualCamera VirtualCamera { get; private set; }
+        [field: SerializeField] public Unity.Cinemachine.CinemachineVirtualCamera VirtualCamera { get; private set; }
         [field: SerializeField] public float DefaultHorizontalWaitTime { get; private set; } = 0f;
         [field: SerializeField] public float DefaultHorizontalRecenteringTime { get; private set; } = 4f;
 
-        private CinemachinePOV cinemachinePOV;
+        private Unity.Cinemachine.CinemachinePOV cinemachinePOV;
 
         public void Initialize()
         {
-            cinemachinePOV = VirtualCamera.GetCinemachineComponent<CinemachinePOV>();
+            cinemachinePOV = VirtualCamera.GetCinemachineComponent<Unity.Cinemachine.CinemachinePOV>();
         }
 
         public void EnableRecentering(float waitTime = -1f, float recenteringTime = -1f, float baseMovementSpeed = 1f, float movementSpeed = 1f)

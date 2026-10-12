@@ -31,6 +31,7 @@ Material:
   - N_F_RDC_ON
   - N_F_RELGI_ON
   - N_F_TRANSAFFSHA_ON
+  - _UVSET_UV0
   m_InvalidKeywords:
   - N_F_TRANSAFFSHA
   - _BLEND_NORMALS
@@ -221,6 +222,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RefrMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RockBaseMap:
         m_Texture: {fileID: 2800000, guid: 6e6d40daed5ec53498089823750578d3, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -263,6 +268,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AAS: 0.0001
+    - _Aberration: 8.5
+    - _AlpToCov: 0
     - _AlphaBaseCutout: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -279,6 +287,7 @@ Material:
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ClipAdju: 0
     - _Compa: 4
     - _ComputeMeshIndex: 0
     - _Contrast: 0.78
@@ -301,6 +310,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DirectionalLightIntensity: 0
+    - _DistRef: 0.95
     - _DoubleSidedOutline: 1
     - _DstBlend: 0
     - _DynamicNoisyOutline: 0
@@ -310,6 +320,8 @@ Material:
     - _EnvironmentalLightingIntensity: 1
     - _Fade: 0.04
     - _FarDistanceMaxWidth: 10
+    - _FresnelEdge: 0
+    - _Frost: 0
     - _GIFlatShade: 0
     - _GIShadeThreshold: 0
     - _GlossColorPower: 10
@@ -324,6 +336,8 @@ Material:
     - _GlossyReflections: 0
     - _Glow_Edge_Width: 1
     - _HighlightColorPower: 1
+    - _LLI_Max: 1
+    - _LLI_Min: 0
     - _Level: -0.06
     - _LigIgnoYNorDir: 0
     - _LightAffectOutlineColor: 0
@@ -340,10 +354,12 @@ Material:
     - _MetalicCoverage: 0
     - _Metallic: 0
     - _MinFadDistance: 0
+    - _MixMaiTexRefr: 0
     - _MixMainTexToOutline: 0
     - _MossDirection: -0.11
     - _MossMetallicSmoothness: 0
     - _MossNormalStrength: 0.31
+    - _N_F_ANIS: 0
     - _N_F_CA: 0
     - _N_F_CLD: 0
     - _N_F_CO: 0
@@ -351,12 +367,14 @@ Material:
     - _N_F_DCS: 0
     - _N_F_DDMD: 1
     - _N_F_EAL: 1
+    - _N_F_EPRF: 0
     - _N_F_ESSAO: 0
     - _N_F_FR: 0
     - _N_F_GLO: 0
     - _N_F_GLOT: 0
     - _N_F_HDLS: 0
     - _N_F_HPSS: 0
+    - _N_F_LLI: 0
     - _N_F_MC: 0
     - _N_F_MSSOLTFO: 0
     - _N_F_NFD: 0
@@ -364,44 +382,67 @@ Material:
     - _N_F_NM: 0
     - _N_F_O: 1
     - _N_F_OFLMB: 0
+    - _N_F_PA: 0
     - _N_F_PT: 0
     - _N_F_R: 0
     - _N_F_RDC: 1
+    - _N_F_RF: 0
     - _N_F_RL: 0
+    - _N_F_RLIS: 0
     - _N_F_SCO: 0
     - _N_F_SCT: 0
+    - _N_F_SE: 0
     - _N_F_SL: 0
+    - _N_F_SLMM: 0
     - _N_F_SON: 0
     - _N_F_SS: 0
     - _N_F_ST: 0
     - _N_F_STIAL: 0
     - _N_F_STIS: 0
+    - _N_F_STSDFM: 0
     - _N_F_TP: 0
+    - _N_F_UUVONEANIS: 0
+    - _N_F_UUVONESDF: 0
+    - _NoiTexAffStraWidt: 0
+    - _NoisTexInten: 1
+    - _NoiseSize: 100
     - _NoisyOutlineIntensity: 0
+    - _NorMapAsDis: 0
     - _NormalMapIntensity: 1
     - _Normal_Strength: 1
     - _OVERLAY: 1
+    - _ObjePosiZCS: 0
     - _OcclusionStrength: 1
     - _Opacity: 1
     - _Oper: 0
+    - _OutStenPass: 0
+    - _OutZTest: 4
+    - _OutZWrite: 1
     - _OutlineExtrudeMethod: 0
     - _OutlineWidth: 0.5
     - _OutlineWidthAffectedByViewDistance: 0
     - _OutlineZPostionInCamera: 0
     - _OverallShadowColorPower: 1
+    - _PADist: 0
+    - _PASize: 0.5
+    - _PASmooTrans: 1
     - _PSGLOTEX: 0
     - _PTexturePower: 1
     - _Parallax: 0.005
     - _PointSpotlightIntensity: 0
+    - _PresAdju: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RELG: 1
+    - _RQSO: 0
     - _ReceiveShadows: 1
     - _ReduSha: 0.5
     - _RefMetallic: 0
     - _RefVal: 0
     - _ReflectionIntensity: 0
     - _ReflectionRoughtness: 0
+    - _RefracDepth: 0.05
+    - _RefracInten: 1
     - _RimLigInt: 1
     - _RimLightColorPower: 10
     - _RimLightInLight: 1
@@ -429,6 +470,7 @@ Material:
     - _ShadowTIntensity: 1
     - _ShadowTLightThreshold: 50
     - _ShadowTShadowThreshold: 0
+    - _ShifAnis: 0
     - _ShowInAmbientLightShadowIntensity: 1
     - _ShowInAmbientLightShadowThreshold: 0.4
     - _ShowNormal: 0
@@ -439,14 +481,22 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _StraWidt: 10
     - _Surface: 0
     - _TEXMCOLINT: 1
     - _TRANSMODE: 0
+    - _TessellationFar: 1
+    - _TessellationNear: 1
+    - _TessellationSmoothness: 0.5
+    - _TessellationTransition: 0.8
+    - _TexSca: 1
     - _TexturePatternStyle: 0
+    - _TrailSize: 1.5
     - _TransAffSha: 1
     - _TransparentThreshold: 0
     - _TriPlaBlend: 4
     - _TriPlaTile: 1
+    - _UVSet: 0
     - _UseSecondaryCutout: 0
     - _UseTLB: 0
     - _VertexColorBlueAffectOutlineWitdh: 0
@@ -469,10 +519,17 @@ Material:
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _MainColor: {r: 0.4245283, g: 0.21026166, b: 0.21026166, a: 1}
     - _MossOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ObjPosi: {r: 0, g: 0, b: 0, a: 0}
+    - _ObjectForward: {r: 0, g: 0, b: 0, a: 0}
+    - _ObjectRight: {r: 0, g: 0, b: 0, a: 0}
+    - _OutResi: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineOffset: {r: 0, g: 0, b: 0, a: 1}
     - _OverallShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _PTCol: {r: 0, g: 0, b: 0, a: 1}
+    - _PrevPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _RefracColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLigPosi: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _RockColor: {r: 1, g: 0.7716981, b: 0.4292453, a: 0}
     - _SSAOColor: {r: 0, g: 0, b: 0, a: 0}

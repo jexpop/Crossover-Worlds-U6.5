@@ -112,7 +112,15 @@ InitTestScene*.unity*
 # PROJECT SPECIFIC: assets de pago / third party excluidos del repo
 # Ver README.md para instrucciones de restauracion.
 # ------------------------------------------------------------------
-/[Aa]ssets/Third Party/
-/[Aa]ssets/Third Party.meta
+/[Aa]ssets/ThirdParty/
+/[Aa]ssets/ThirdParty.meta
 /[Aa]ssets/RealToon/
 /[Aa]ssets/RealToon.meta
+/[Aa]ssets/AssetInventory/
+/[Aa]ssets/AssetInventory.meta
+
+# Paquetes embebidos de pago (parte de GPUInstancerPro, ver README).
+# Se mantiene manifest.json y packages-lock.json, solo se excluye el codigo.
+/[Pp]ackages/com.gurbu.gpui-pro/
+/[Pp]ackages/com.gurbu.gpui-pro.prefab/
+/[Pp]ackages/com.gurbu.gpui-pro.terrain/

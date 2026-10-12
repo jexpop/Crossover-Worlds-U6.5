@@ -22,7 +22,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.gurbu.gpui-pro": "0.10.2"
+        "com.gurbu.gpui-pro": "0.12.20"
       }
     },
     "com.gurbu.gpui-pro.terrain": {
@@ -30,7 +30,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.gurbu.gpui-pro": "0.10.2"
+        "com.gurbu.gpui-pro": "0.12.20"
       }
     },
     "com.unity.ai.navigation": {
@@ -98,12 +98,13 @@
       "dependencies": {}
     },
     "com.unity.film-internal-utilities": {
-      "version": "0.18.4-preview",
+      "version": "0.20.0-preview",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.timeline": "1.2.18",
-        "com.unity.modules.uielements": "1.0.0"
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -298,12 +299,12 @@
       }
     },
     "com.unity.toonshader": {
-      "version": "0.10.0-preview",
+      "version": "0.15.1-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "10.0.0",
-        "com.unity.film-internal-utilities": "0.18.4-preview"
+        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.film-internal-utilities": "0.20.0-preview"
       },
       "url": "https://packages.unity.com"
     },
